@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/activity_main"
+       android:orientation="vertical">
+
+
+       <Button
+           android:id="@+id/btnRegistro"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Registrar usuario"
+           android:onClick="onClick"/>
+
+       <Button
+           android:id="@+id/btnConsultaUser"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Consultar Usuario"
+           android:onClick="onClick"/>
+
+       <Button
+           android:id="@+id/btnListaSpinner"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Consultar lista usando Spinner"
+           android:onClick="onClick"/>
+
+       <Button
+           android:id="@+id/btnListaListView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Consultar lista usando ListView"
+           android:onClick="onClick"/>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
